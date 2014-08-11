@@ -1,0 +1,32 @@
+{
+    "minimum-stability": "dev",
+	"name": "dev-media/facade-pimple",
+    "require": {
+		"php": ">=5.3.3",
+		"pimple/pimple": "~1.0",
+		"symfony/event-dispatcher": ">=2.3,<2.6-dev",
+		"symfony/http-foundation": ">=2.3,<2.6-dev",
+		"symfony/http-kernel": ">=2.3,<2.6-dev",
+		"symfony/routing": ">=2.3,<2.6-dev",
+		"symfony/finder": ">=2.3,<2.6-dev",
+		"symfony/security": ">=2.3,<2.6-dev",
+		"illuminate/database": "v4.0.8",
+		"illuminate/hashing": "v4.0.8",
+		"illuminate/auth": "v4.0.8",
+		"symfony/twig-bridge": ">=2.3,<2.6-dev",
+		"twig/twig": ">=1.8.0,<2.0-dev",
+		"cartalyst/sentry": "2.0.*@dev"
+    },
+	"autoload": {
+		"classmap": [
+			"Devmedia",
+			"application"
+		]
+	},
+    "authors": [
+        {
+            "name": "mezigh",
+            "email": "mezigh@gmail.com"
+        }
+    ]
+}
